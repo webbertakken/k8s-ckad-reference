@@ -6,7 +6,9 @@ Reference for k8s certification
 
 #### Official resources
 
+- [Portal](https://trainingportal.linuxfoundation.org/learn/dashboard) (acquired after booking)
 - [Certification handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook)
+- [Important instructions](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
 
 #### Format
 
@@ -29,7 +31,6 @@ Setup vim (for working with yaml)
 alias vi=vim ; cat <<EOF >~/.vimrc
 set number
 set shiftwidth=2
-set foldlevelstart=20
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 EOF
 ```
