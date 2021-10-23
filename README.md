@@ -1,6 +1,6 @@
 # K8s reference
 
-Reference for k8s certification
+Certification reference (unofficial) for "Certified Kubernetes Application Developer (CKAD)".
 
 ## Preparation and rationale
 
@@ -22,6 +22,11 @@ Reference for k8s certification
 - `kubectl` and alias `k`
 - `helm` (no `kubens`)
 - `vim` (no config)
+
+> **Note:** Regular copy and paste hotkeys do not work.
+> - For Linux: select text for copy and middle button for paste (or both left and right simultaneously if you have no middle button).
+> - For Mac: ⌘+C to copy and ⌘+V to paste.
+> - For Windows: Ctrl+Insert to copy and Shift+Insert to paste
 
 ## Setup
 
