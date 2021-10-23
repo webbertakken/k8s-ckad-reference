@@ -19,14 +19,15 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 #### Environment
 
 - ubuntu 18:04, no extra packages
-- `kubectl` and alias `k`
-- `helm` (no `kubens`)
+- `sudo` requires no password
+- `kubectl` and alias `k` (no `kubens`)
+- `helm`
 - `vim` (no config)
 
 > **Note:** Regular copy and paste hotkeys do not work.
-> - For Linux: select text for copy and middle button for paste (or both left and right simultaneously if you have no middle button).
-> - For Mac: ⌘+C to copy and ⌘+V to paste.
-> - For Windows: Ctrl+Insert to copy and Shift+Insert to paste
+> - For **Linux**: select text for copy and middle button for paste (or both left and right simultaneously if you have no middle button).
+> - For **Mac**: ⌘+C to copy and ⌘+V to paste.
+> - For **Windows**: Ctrl+Insert to copy and Shift+Insert to paste
 
 ## Setup
 
