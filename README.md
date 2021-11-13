@@ -6,7 +6,7 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 
 #### Official resources
 
-- [Exam curriculum](https://github.com/cncf/curriculum)
+- [Curriculum](https://github.com/cncf/curriculum)
 - [Portal](https://trainingportal.linuxfoundation.org/learn/dashboard) (acquired after booking)
 - [Certification handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook)
 - [Important instructions](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
@@ -15,7 +15,7 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 
 - 2 hours hands-on, solving "hard" problems
 - A proctor watches you perform the exam live
-- You can only access specific pages
+- You can only access specific pages (listed below)
 
 #### Environment
 
@@ -35,14 +35,13 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 Setup bash colors
 
 ```shell
-cat <<EOF >>~/.bashrc
+cat <<EOF >>~/.bashrc && . .bashrc
 
 # Dracula theme colors
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 EOF
-. .bashrc
 ```
 
 Setup vim (for working with yaml)
