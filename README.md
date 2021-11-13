@@ -6,6 +6,7 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 
 #### Official resources
 
+- [Exam curriculum](https://github.com/cncf/curriculum)
 - [Portal](https://trainingportal.linuxfoundation.org/learn/dashboard) (acquired after booking)
 - [Certification handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook)
 - [Important instructions](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
