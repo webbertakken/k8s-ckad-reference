@@ -55,5 +55,9 @@ Relevant allowed sub-pages (recommended bookmarks):
 
 - [Change current namespace](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/#setting-the-namespace-preference)
 
+## Additional resources
 
+The following resources are not allowed during the exam.
+
+- [Illustrated guide to kubernetes networking](https://speakerdeck.com/thockin/illustrated-guide-to-kubernetes-networking) by Tim Hockin
 
