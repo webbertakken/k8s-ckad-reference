@@ -50,9 +50,11 @@ Setup vim (for working with yaml)
 alias vi=vim ; cat <<EOF >~/.vimrc
 set number
 set shiftwidth=2
+set tabstop=2
 set softtabstop=2
-set shiftwidth=2
 set expandtab
+set autoindent
+set laststatus=2
 EOF
 ```
 
