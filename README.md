@@ -37,7 +37,9 @@ Setup vim (for working with yaml)
 alias vi=vim ; cat <<EOF >~/.vimrc
 set number
 set shiftwidth=2
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+set softtabstop=2
+set shiftwidth=2
+set expandtab
 EOF
 ```
 
@@ -49,7 +51,7 @@ Allowed top-level pages during exam ([source](https://docs.linuxfoundation.org/t
 - https://github.com/kubernetes/
 - https://kubernetes.io/blog/
 
-Relevant allowed sub-pages:
+Relevant allowed sub-pages (recommended bookmarks):
 
 - [Change current namespace](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/#setting-the-namespace-preference)
 
