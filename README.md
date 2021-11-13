@@ -1,4 +1,4 @@
-# K8s reference
+# K8s CKAD reference
 
 Certification reference (unofficial) for "Certified Kubernetes Application Developer (CKAD)".
 
