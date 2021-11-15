@@ -43,7 +43,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # Recommended exports
-export dry="--dry-run=client -o yaml" 
+export do="--dry-run=client -o yaml" 
 export now="--force --grace-period 0"
 
 # Recommended aliases
