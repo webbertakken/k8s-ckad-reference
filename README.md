@@ -41,6 +41,14 @@ cat <<EOF >>~/.bashrc && . .bashrc
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# Recommended exports
+export dry="--dry-run=client -o yaml" 
+export now="--force --grace-period 0"
+
+# Recommended aliases
+alias kn="kubectl config set-context --current --namespace "
+alias kubens="kubectl config set-context --current --namespace "
 EOF
 ```
 
@@ -49,6 +57,7 @@ Setup vim (for working with yaml)
 ```shell
 alias vi=vim ; cat <<EOF >~/.vimrc
 set number
+set mouse=a
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
