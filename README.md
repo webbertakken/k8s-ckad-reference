@@ -52,6 +52,7 @@ export now="--force --grace-period 0"
 # Recommended aliases
 alias kn="kubectl config set-context --current --namespace "
 alias kubens="kubectl config set-context --current --namespace "
+alias jq="jq -r"
 EOF
 ```
 
