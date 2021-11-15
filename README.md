@@ -21,9 +21,12 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 
 - ubuntu 18:04, no extra packages
 - `sudo` requires no password
-- `kubectl` and alias `k` (no `kubens`)
+- `kubectl` with alias `k` and Bash autocompletion (no `kubens`)
 - `helm`
 - `vim` (no config)
+- `yq` and `jq` for YAML/JSON processing
+- `curl` and `wget` for testing web services
+- `man` and man pages for further documentation
 
 > **Note:** Regular copy and paste hotkeys do not work.
 > - For **Linux**: select text for copy and middle button for paste (or both left and right simultaneously if you have no middle button).
