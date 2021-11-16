@@ -51,7 +51,7 @@ export now="--force --grace-period 0"
 
 # Recommended aliases
 alias kn="kubectl config set-context --current --namespace "
-alias kubens="kubectl config set-context --current --namespace "
+alias kd="kubectl -n default"
 alias jq="jq -r"
 EOF
 ```
@@ -61,7 +61,6 @@ Setup vim (for working with yaml)
 ```shell
 alias vi=vim ; cat <<EOF >~/.vimrc
 set number
-set mouse=a
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
@@ -89,3 +88,33 @@ The following resources are not allowed during the exam.
 
 - [Illustrated guide to kubernetes networking](https://speakerdeck.com/thockin/illustrated-guide-to-kubernetes-networking) by Tim Hockin
 
+## Most important commands 
+
+Commands you should easily be able to reproduce and intrinsically understand.
+
+Note that you will need to use many more commands, but knowing these will speed up your workflow. There is limited time for looking up commands during the exam.
+
+```bash
+# Using help to find the exact syntax for a command
+k <command> --help
+
+# Using a debug container
+k run -it curl --image=nginx -- bash
+k exec -it curl -- bash
+k delete pod curl $now
+
+# Show additional information for resources
+k get pod -o wide
+k get pod --show-labels
+
+# Querying aggregated info
+k get all -n=<label>
+
+# Querying selective information
+k get secret <name> -o json | jq '.my.key'
+
+# Create yaml files using generators (from dry-run output)
+k create deploy <name> -n <namespace> --image=<image> --port=<port> $do | head -n -1
+k create secret generic <name> --from-literal=key1=value --from-file=key2=path/to/file $do
+k expose <object> <name> --name <service-name> -n <namespace> --port --target-port $do | head -n -2
+```
