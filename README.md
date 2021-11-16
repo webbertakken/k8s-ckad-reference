@@ -35,7 +35,7 @@ Certification reference (unofficial) for "Certified Kubernetes Application Devel
 
 ## Setup
 
-Setup bash colors
+Setup shell.
 
 ```shell
 cat <<EOF >>~/.bashrc && . .bashrc
@@ -56,7 +56,7 @@ alias jq="jq -r"
 EOF
 ```
 
-Setup vim (for working with yaml)
+Setup vim.
 
 ```shell
 alias vi=vim ; cat <<EOF >~/.vimrc
